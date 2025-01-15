@@ -1,0 +1,18 @@
+nav{
+    background-color: #2d3e50;
+}
+nav li a{
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    
+}
+.bgActve{
+  background-color:   #1bbc9c;
+}
+.navbar-brand{
+    font-size: 25px;
+    line-height: 48px;
+    font-weight: 700;
+}

@@ -1,0 +1,38 @@
+section{
+    /* height: 85vh !important; */
+    margin-top: 10%;
+}
+.line{
+    background-color: #2d3e4f;
+    width: 75px;
+    height: 4px;
+    
+}
+h1{
+    font-weight: 700;
+    color: #2d3e4f;
+}
+.layer{
+    width: 89.5%;
+    height: 100%;
+background-color:  #1bbc9c;
+position: absolute;
+top: 0;
+left: 5.5%;
+opacity: 0;
+transition: all .4s ease-in-out;
+}
+.layer:hover{
+    opacity: .9;
+}
+.box-layer{
+    background-color: #00000078;
+    top:0;
+    bottom: 0;
+    left: 0;
+}
+@media(max-width:575px){
+    section{
+  margin-top: 30%;
+    }
+  }

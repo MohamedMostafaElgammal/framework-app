@@ -1,0 +1,13 @@
+section{
+    background-color: #1bbc9b;
+    height: 85vh !important;
+}
+.line{
+    background-color: #fff;
+    width: 75px;
+    height: 4px;
+    
+}
+h1{
+    font-weight: 700;
+}

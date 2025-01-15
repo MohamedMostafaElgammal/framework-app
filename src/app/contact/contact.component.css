@@ -1,0 +1,43 @@
+section{
+    /* height: 85vh !important; */
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.line{
+    background-color: #2d3e4f;
+    width: 75px;
+    height: 4px;
+    
+}
+h1{
+    font-weight: 700;
+    color: #2d3e4f;
+}
+input{
+     border-top:0px ;
+     border-left:0px ;
+     border-right:0px ;
+     border-color:#00000034 ;
+}
+input:focus {
+    outline: none;  
+    box-shadow: none; 
+    border-color:#00000034 ;
+  }
+  .btn{
+    background-color: #1bbc9b;
+    color: #fff;
+  }
+  label{
+    color: #1bbc9b;
+    /* bottom: 50%; */
+  }
+  .top-40{
+    top: 40px !important;
+}
+
+@media(max-width:575px){
+  section{
+margin-top: 30%;
+  }
+}
